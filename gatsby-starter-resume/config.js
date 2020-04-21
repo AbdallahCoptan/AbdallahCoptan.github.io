@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'Abdallah Resume', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,14 +8,14 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  firstName: 'Abdallah',
+  lastName: 'Ibrahim',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/abdallahcoptan',
     },
     {
       icon: 'fa-linkedin-in',
@@ -34,6 +34,6 @@ module.exports = {
     },
   ],
   email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
+  phone: '000-661420855',
   address: '305 Del Sol, Sunnyvale, CA',
 };
