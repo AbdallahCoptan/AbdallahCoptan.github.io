@@ -53,7 +53,7 @@ module.exports = {
 };
 ```
 
-*Do Not forget* to change the path prefix to root folder:
+**Do Not forget** to change the path prefix to root folder:
 
 The template should be in the directory 'root' on your repository.
 
@@ -72,7 +72,7 @@ npm run clean
 
 ## Adding a develop branch
 
-Adding a new branch for development because you need to make your index.html file on the master branch. 
+Adding a new branch for development because you need to make your `index.html` file on the master branch. 
 This is will let the website got published on the personal github page of your repo.  
 
 Issuing a new branch by
@@ -80,9 +80,9 @@ Issuing a new branch by
 ```sh
 git checkout -b develop
 ```
-*All teh development should be on the develop branch, and the master will not be touched anymore*
+**All teh development should be on the develop branch, and the master will not be touched anymore**
 
-Updating the package.json file by adding a new *script* on "scripts" section:
+Updating the `package.json` file by adding a new *script* on "scripts" section:
 
 ```
 "deploymaster": "npm run clean && gatsby build --prefix-paths && gh-pages -d public -b master",
@@ -119,9 +119,8 @@ npm run deploymaster
 
 The final index.html file will be on the master branch and with this you can access the website by:
 
-```
 [https://abdallahcoptan.github.io/](https://abdallahcoptan.github.io/)
-```
+
 
 
 
