@@ -80,7 +80,7 @@ Issuing a new branch by
 ```sh
 git checkout -b develop
 ```
-**All teh development should be on the develop branch, and the master will not be touched anymore**
+**All the development should be on the develop branch, and the master will not be touched anymore**
 
 Updating the `package.json` file by adding a new *script* on "scripts" section:
 
@@ -98,7 +98,7 @@ gatsby develop
 ## Push changes to the git [optional]
 
 ```sh
-git push -u origin deveop
+git push -u origin develop
 ```
 
 ## Building your website
