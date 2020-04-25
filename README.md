@@ -13,7 +13,7 @@ You should have a new git repo (exactly on your acountname.github.io):
 ```
 
 Make sure that you have the `npm` installed:
-Check this [link](https://www.devroom.io/2011/10/24/installing-node-js-and-npm-on-ubuntu-debian/) for installing the last version of Nodejs and NPM.
+Check this [link](https://www.devroom.io/2011/10/24/installing-node-js-and-npm-on-ubuntu-debian/) for installing the last version of Nodejs and NPM, Or check the page locally [here](https://github.com/AbdallahCoptan/abdallahcoptan.github.io/blob/master/nomInstall.md).
 
 ```sh
 sudo apt-get install npm
