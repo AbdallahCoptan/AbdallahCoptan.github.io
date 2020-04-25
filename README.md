@@ -12,6 +12,12 @@ You should have a new git repo (exactly on your acountname.github.io):
  git clone <your git repo directory>.<acountname.github.io>
 ```
 
+Make sure that you have the `npm` installed:
+
+```sh
+sudo apt-get install npm
+```
+
 Make sure that you have the Gatsby CLI program installed:
 
 ```sh
