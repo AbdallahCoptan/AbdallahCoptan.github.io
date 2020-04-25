@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Abdallah Resume', // <title>
+  siteTitle: 'Abdallah A. Ibrahim Resume', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -33,7 +33,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-661420855',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'abdallah.cisco@gmail.com',
+  phone: '+352-661420855',
+  address: '2 Rue Principal, 7420, LU',
 };
