@@ -128,6 +128,23 @@ The final index.html file will be on the master branch and with this you can acc
 
 [https://abdallahcoptan.github.io/](https://abdallahcoptan.github.io/)
 
+# Note
 
+In case you will add a new device for deployment, you should have a .gitignore file, this file should have the folllowing:
+
+```
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build directory
+/public
+.DS_Store
+
+```
+This will ignore all the `npm install` files and the `.cache` files.  
 
 
