@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Abdallah',
+  firstName: 'Abdallah Ali Z. ',
   lastName: 'Ibrahim',
   // social
   socialLinks: [
