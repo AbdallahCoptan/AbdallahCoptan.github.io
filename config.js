@@ -17,21 +17,21 @@ module.exports = {
       name: 'Github',
       url: 'https://github.com/AbdallahCoptan',
     },
-    {
-      icon: 'fa-gitlab',
-      name: 'Github',
-      url: 'https://gitlab.uni.lu/users/sign_in',
-    },
+    // {
+    //   icon: 'fa-gitlab',
+    //   name: 'Gitlab',
+    //   url: 'https://gitlab.uni.lu/users/sign_in',
+    // },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/aazai/',
     },
-    {
-      icon: 'fa-google',
-      name: 'google-scholar',
-      url: 'https://twitter.com/ElkoptanAAZEAI',
-    },
+    // {
+    //   icon: 'fa-google',
+    //   name: 'google-scholar',
+    //   url: 'https://twitter.com/ElkoptanAAZEAI',
+    // },
     {
       icon: 'fa-researchgate',
       name: 'researchgate',
@@ -42,11 +42,11 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/ElkoptanAAZEAI',
     },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
+    // {
+    //   icon: 'fa-facebook-f',
+    //   name: 'Facebook',
+    //   url: 'https://facebook.com/theanubhav',
+    // },
     {
       icon: 'fa-instagram',
       name: 'instagram',
@@ -55,7 +55,7 @@ module.exports = {
     {
       icon: 'fa-youtube',
       name: 'youtube',
-      url: 'https://www.instagram.com/elkoptanabdallah/',
+      url: 'https://www.youtube.com/channel/UCZ7sqEndLmAyecmIaxcGm5w?view_as=subscriber',
     },
     {
       icon: 'fa-skype',

@@ -23,10 +23,10 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition. See my <a href='/bio_abdallah/' target="_blank"> BIO </a>
+            I am an experienced Cloud engineer, architect, consultant, and, a practitioner. I played a lot with Cloud SLAs, quality assurance, and verification. 
+            I can provide a robust system architecture that hosted on the cloud or on a HPC datacenter. Giving network solutions, database solutions, 
+            and processing power solutions. I know data science, modelling, buisness intiligence, and data analytics. Finally, i have a good experience in how to visualize a data.
+            See my detailed <a href='/bio_abdallah/' target="_blank"> BIO </a>.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
