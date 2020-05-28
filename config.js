@@ -13,32 +13,32 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
+      icon: 'fab fa-github',
       name: 'Github',
       url: 'https://github.com/AbdallahCoptan',
     },
     // {
-    //   icon: 'fa-gitlab',
+    //   icon: 'fab fa-gitlab',
     //   name: 'Gitlab',
     //   url: 'https://gitlab.uni.lu/users/sign_in',
     // },
     {
-      icon: 'fa-linkedin-in',
+      icon: 'fab fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/aazai/',
     },
     // {
-    //   icon: 'fa-google',
+    //   icon: 'fas fa-graduation-cap',
     //   name: 'google-scholar',
     //   url: 'https://twitter.com/ElkoptanAAZEAI',
     // },
     {
-      icon: 'fa-researchgate',
+      icon: 'fab fa-researchgate',
       name: 'researchgate',
       url: 'https://www.researchgate.net/profile/Abdallah_Ibrahim5',
     },
     {
-      icon: 'fa-twitter',
+      icon: 'fab fa-twitter',
       name: 'Twitter',
       url: 'https://twitter.com/ElkoptanAAZEAI',
     },
@@ -48,29 +48,34 @@ module.exports = {
     //   url: 'https://facebook.com/theanubhav',
     // },
     {
-      icon: 'fa-instagram',
+      icon: 'fab fa-instagram',
       name: 'instagram',
       url: 'https://www.instagram.com/elkoptanabdallah/',
     },
     {
-      icon: 'fa-youtube',
+      icon: 'fab fa-youtube',
       name: 'youtube',
       url: 'https://www.youtube.com/channel/UCZ7sqEndLmAyecmIaxcGm5w?view_as=subscriber',
     },
     {
-      icon: 'fa-skype',
+      icon: 'fab fa-skype',
       name: 'skype',
       url: '/Skype_Abdallah',
     },
     {
-      icon: 'fa-whatsapp',
+      icon: 'fab fa-whatsapp',
       name: 'whatsapp',
       url: '/Whats_Abdallah',
     },
     {
-      icon: 'fa-viber',
-      name: 'whatsapp',
+      icon: 'fab fa-viber',
+      name: 'viber',
       url: '/viber_Abdallah',
+    },
+    {
+      icon: 'fab fa-slack',
+      name: 'slack',
+      url: 'https://join.slack.com/t/abdallahcoptanchannel/shared_invite/zt-eli8xemq-rXKILr8QZmuYSSzIN~qu1Q',
     },
 
   ],

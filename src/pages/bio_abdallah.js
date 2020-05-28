@@ -2,13 +2,15 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import skyimg from '../assets/images/A Ibrahim.jpg';
+import Sidebar from '../components/Sidebar2';
 
 const IndexPage = () => (
   <Layout>
+    <Sidebar />
     <div className="container-fluid p-0">
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="about"
+        id="ShortBiography"
       >
         <header className="major">
         <i></i>
@@ -28,11 +30,59 @@ const IndexPage = () => (
             In February 2019, Abdallah has successfully completed the Smart ICT for Business Innovation diploma certificat, in collaboration with the Institut Luxembourgeois de la Normalisation, 
             de l'Accréditation, de la Sécurité et qualité des produits et services (ILNAS), Dell EMC, and the University of Luxembourg. His research interests span the areas of Cloud Computing, Fog/Edge Computing, 
             Software Cloud Services, QoS, Performance monitoring, Industry 4.0, smart mobility and transportation systems, optimization problems, and machine learning. Abdallah is also a national delegate 
-            at multiple ISO technical committees such as the ISO/IEC JTC1/SC 38 (Cloud Computing and Distributed Platforms) and ISO/IEC JTC1/SC 41(Internet of Things and Related Technologies). He is also heavily 
+            at multiple ISO technical committees such as the ISO/IEC JTC1/SC 38 (Cloud Computing and Distributed Platforms) and ISO/IEC JTC1/SC 41 (Internet of Things and Related Technologies). He is also heavily 
             involved in the tech-start-up business, particularly in companies’ formation and validation stages. 
           </h>
         </header>
       </section>
+
+
+<section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="CurriculumVitae"
+      >
+        <header className="major">
+        <i></i>
+          
+          <h2> Curriculum Vitae  </h2>
+          
+          <h>
+            Several versions of my CV can be found here:
+
+          </h>
+
+<table>
+<thead>
+  <tr>
+    <th>CV</th>
+    <th>Size</th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>cv-varrette-en.pdf</td>
+    <td>12 pages</td>
+    <td>Full complete version, holding all my publications</td>
+  </tr>
+  <tr>
+    <td>cv-varrette-en_short.pdf</td>
+    <td>3 pages</td>
+    <td>Short version (3p), holding selected publications</td>
+  </tr>
+  <tr>
+    <td>cv-varrette-en_tiny.pdf</td>
+    <td>1 page</td>
+    <td>Tiny version</td>
+  </tr>
+</tbody>
+</table>
+
+
+        </header>
+      </section>
+
+
     </div>
   </Layout>
 );
