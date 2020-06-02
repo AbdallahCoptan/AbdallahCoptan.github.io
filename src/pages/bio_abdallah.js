@@ -2,7 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import skyimg from '../assets/images/A Ibrahim.jpg';
-import cv from '../assets/pdfs/cv-varrette-en.pdf';
+import cv from '../assets/pdfs/CV-aibrahim-en.pdf';
+import cv_short from '../assets/pdfs/CV-aibrahim-en_short.pdf';
+import cv_full from '../assets/pdfs/CV-aibrahim-en_full.pdf';
 import Sidebar from '../components/Sidebar2';
 
 const IndexPage = () => (
@@ -67,19 +69,19 @@ const IndexPage = () => (
 </thead>
 <tbody>
   <tr>
-    <td> <a href = {cv}> cv-varrette-en.pdf</a>  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </td>
-    <td>12 pages </td>
-    <td>Full complete version, holding all my publications</td>
+    <td> <a href = {cv}> cv-aibrahim-en.pdf</a>  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </td>
+    <td>4 pages </td>
+    <td>Full complete version, holding all my publications, Euro Pass</td>
   </tr>
   <tr>
-    <td>cv-varrette-en_short.pdf </td>
-    <td>3 pages&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td>Short version (3p), holding selected publications</td>
+    <td> <a href = {cv_full}> cv-aibrahim-en_full.pdf </a></td>
+    <td>3 pages &emsp;&emsp;&emsp;&emsp;&emsp;</td>
+    <td>Short version (4p), holding selected publications</td>
   </tr>
   <tr>
-    <td>cv-varrette-en_tiny.pdf </td>
-    <td>1 page</td>
-    <td>Tiny version</td>
+    <td> <a href = {cv_short}> cv-aibrahim-en_short.pdf </a></td>
+    <td>3 page</td>
+    <td>Short version, holding no publications</td>
   </tr>
 </tbody>
 </table>

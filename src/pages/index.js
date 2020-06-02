@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import ilnas from '../assets/images/ilnas.jpg';
+
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -55,73 +57,255 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">National Delegate</h3>
+              <div className="subheading mb-3">ILNAS & ANEC Normalisation Luxembourg
+              </div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                Participate/ delegate in the standards related to: 
+                <li>ISO/IEC JTC1/SC 38 - Cloud Computing and Distributed Platforms</li>
+                <li> ISO/IEC JTC1/SC 41- Internet of Things and Related Technologies</li>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">January 2016 - Present</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+
+        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">On-demand Network Engineer</h3>
+              <div className="subheading mb-3">ITARMI</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+               <li> Troubleshooting network problems and solving them. </li>
+              <li>  Installing and maintaining network infrastructure for companies and banks. </li>
+              <li>   Collaborating with vendors to resolve problems and update equipment. </li>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">December 2019 - Present</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+
+         <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">On-demand Network Engineer</h3>
+              <div className="subheading mb-3">Inter-Prompt Global (IP Global)</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+               <li> Troubleshooting network problems and solving them. </li>
+              <li>  Installing and maintaining network infrastructure for companies and banks. </li>
+              <li>   Collaborating with vendors to resolve problems and update equipment. </li>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">August 2017 - Present</span>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Doctoral Researcher</h3>
+              <div className="subheading mb-3">Interdisciplinary Centre for Security, Reliability and Trust (SnT)</div>
+              <p>
+              <li>  Developing a framework and methodologies to evaluate the performance of the cloud SaaS web services, 
+                ranking the cloud providers and assuring the quality of services metrics which are indicated in the cloud SLAs. </li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">October 2015 - Febrauary 2020</span>
+            </div>
+          </div>
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Internship</h3>
+              <div className="subheading mb-3">Dell EMC</div>
+              <p>
+               <li> The mission was to write Dell EMC an overview of the "Cloud Market" - including the overall situation of the market, 
+                the trends and concern a customer may have before migrating to the Cloud. </li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2018 - Febrauary 2019</span>
+            </div>
+          </div>
+
+
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Visiting Researcher</h3>
+              <div className="subheading mb-3">Poznan Supercomputing and Networking Center (PSNC)</div>
+              <p>
+                <li>Dealing with a Virtual desktop infrastructure (VDI) environment.</li>
+                <li>Build the VDI environment with VMWare and PSNC.</li>
+                <li>Work on the SLA and quality measurements for VDI users, and 
+                the energy consumption reduction by using VDI.</li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">March 2016 - May 2016</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Manager and Legal Main Contact</h3>
+              <div className="subheading mb-3">Cisco Networking Academy Suez Canal University</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+                <li>Working as legal main contact and manager to the CISCO academy in Suez Canal University.</li>
+                <li>Teaching CCNA course in the Academy, enroll the students and practice them. 
+                Also teaching the networking and communication courses in department of computer science in the faculty.</li>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">January 2012 - July 2014</span>
             </div>
           </div>
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Research Assistant</h3>
+              <div className="subheading mb-3">Interdisciplinary Centre for Security, Reliability and Trust (SnT)</div>
+              <p>
+                <li> Working on event detection and mining social media such as facebook, twitter, and Instagram.</li>
+                <li> Developing a mobility model for Senegal, Ivory Coast, and Luxembourg. These models are built based on the mobile data collected by Orange. </li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2013 - September 2015</span>
+            </div>
+          </div>
+
+
+
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Cisco Instructor</h3>
+              <div className="subheading mb-3">Cisco Networking Academy Suez Canal University</div>
+              <p>
+                <li>Teaching CCNA course in the Academy, enroll the students and practice them. 
+                Also teaching the networking and communication courses in department of computer science in the faculty.</li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">January 2012 - July 2014</span>
+            </div>
+          </div>
+
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Teaching Assistant</h3>
+              <div className="subheading mb-3">Suez Canal University</div>
+              <p>
+              Teaching many computer sciences and programming languages courses, such as: 
+                <li>C/C++/Object-oriented programming</li>
+                <li>File structure and Data Structure</li>
+                <li>Database Systems/SQL/PL/Oracle</li>
+                <li>Networking Systems/CCNA</li>
+              
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">December 2010 - December 2013</span>
+            </div>
+          </div>
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Network Administrator</h3>
+              <div className="subheading mb-3">Suez Canal University</div>
+              <p>
+                <li>Working as the head of the network of the Faculty of Computer and Informatics inside the IT unit.</li>
+                <li>Working as a network Engineer (Network Administrator) at FCI SCU at ITunit in the faculty.</li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">July 2012 - August 2013</span>
+            </div>
+          </div>
+
+
+            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Quality Assurance Engineer</h3>
+              <div className="subheading mb-3">Suez Canal University-Training Center</div>
+              <p>
+                <li>Testing the eximination system for the university employees</li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">December 2010 - Febrauary 2013</span>
+            </div>
+          </div>
+
+
+
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Oracle Developer and Instructor</h3>
+              <div className="subheading mb-3">Suez Canal University-Oracle Training Center</div>
+              <p>
+                <li> Training the employees of the faculties of Suez Canal University on ORACLE Run time. </li>
+                <li> Teaching the classes of the Oracle developing on ORACLE 10g and 11g on Developer 6i and 10g also the Oracle Report builder. </li>
+                <li> Teaching the practical of the courses DataBase 1 and DataBase 2. </li>
+                <li> Participate in developing new data base systems in the university. </li>
+                <li> Maintaining all the old data base systems like Student Affairs system(Control), Employee Affairs system, SndookElzamala System and Eltarteeb system. </li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">December 2010 - August 2013</span>
+            </div>
+          </div>
+
+
+
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Teaching and Research Assistant</h3>
+              <div className="subheading mb-3">Suez University</div>
+              <p>
+                <li>Teaching as a Cisco networking Academy instructor, to teach the CCNA to the student of the faculty.</li>
+                <li>Teaching Oracle data base designing and developing the forms in the class. And heling the students in their graduation projects.</li>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2011 - August 2012</span>
+            </div>
+          </div>
+
+
+
+
         </div>
       </section>
+
+     
+
+
+
+
+
+
+
 
       <hr className="m-0" />
 
@@ -156,6 +340,16 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
+
+    
+
+
+
+
+
+
+
+
 
       <hr className="m-0" />
 
