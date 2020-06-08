@@ -3,6 +3,14 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 
+import PhD from '../assets/pdfs/PhD_Abdallah_Ibrahim.pdf';
+import ICT from '../assets/pdfs/Smart ICT certificat_Abdallah_Ibrahim.pdf';
+import MScII from '../assets/pdfs/MasterII_Abdallah_Ibrahim.pdf';
+import MScI from '../assets/pdfs/MasterI_Abdallah_Ibrahim.pdf';
+import BSc from '../assets/pdfs/Bachelor_Abdallah_Ibrahim.pdf';
+
+
+
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -306,6 +314,12 @@ const IndexPage = () => (
 
 
 
+
+
+
+
+
+
       <hr className="m-0" />
 
       <section
@@ -317,24 +331,65 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">University of Luxembourg</h3>
+              <div className="subheading mb-3">Doctor of Philosophy - PhD</div>
+              <div>Computer Engineering and Information Sciences</div>
+              <p>GPA: Outstanding, <a href = {PhD}> <small>[Ref]</small>  </a> </p> 
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">November 2015 - January 2020</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">University of Luxembourg</h3>
+              <div className="subheading mb-3">Diploma Certificate - Smart ICT for Business Innovation</div>
+              <div>Computer Engineering and Information Sciences</div>
+              <p>GPA: 3.8, <a href = {ICT}> <small>[Ref]</small>  </a></p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">Febrauary 2018 - Febrauary 2019</span>
+            </div>
+          </div>
+
+
+           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">University of Luxembourg</h3>
+              <div className="subheading mb-3">Master's Degree - MSc II</div>
+              <div>Computer Science and Information Technologies- Profiles: Networking & Communications Systems</div>
+              <p>GPA: 3.5, <a href = {MScII}> <small>[Ref]</small>  </a></p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2013 - September 2015</span>
+            </div>
+          </div>
+
+
+           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Suez Canal University</h3>
+              <div className="subheading mb-3">Master's Degree - MSc I</div>
+              <div>Computer Science and Information Technologies</div>
+              <p>GPA: 3.6, <a href = {MScI}> <small>[Ref]</small>  </a></p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2011 - September 2012</span>
+            </div>
+          </div>
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Suez Canal University</h3>
+              <div className="subheading mb-3">Bachelor's Degree - BSc</div>
+              <div>Computer Science and Information Technologies</div>
+              <p>GPA: 3.6, <a href = {BSc}> <small>[Ref]</small>  </a></p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2006 - September 2010</span>
             </div>
           </div>
         </div>
