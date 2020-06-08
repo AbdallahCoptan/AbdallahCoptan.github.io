@@ -2,7 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import ilnas from '../assets/images/ilnas.jpg';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -125,7 +124,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Internship</h3>
+              <h3 className="mb-0">Cloud Engineer</h3>
               <div className="subheading mb-3">Dell EMC</div>
               <p>
                <li> The mission was to write Dell EMC an overview of the "Cloud Market" - including the overall situation of the market, 
